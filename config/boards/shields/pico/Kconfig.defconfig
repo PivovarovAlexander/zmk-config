@@ -3,7 +3,12 @@
 
 if SHIELD_PICO
 
-config ZMK_KEYBOARD_NAME
-    default "pico"
+    # Keyboard name
+    config ZMK_KEYBOARD_NAME
+        default "pico"
+
+    # PCF8575 I/O Expander
+    config I2C
+        default y
 
 endif

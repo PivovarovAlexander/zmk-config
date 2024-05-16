@@ -1,0 +1,6 @@
+
+if GPIO
+
+rsource "Kconfig.pcf857x"
+
+endif # GPIO%
