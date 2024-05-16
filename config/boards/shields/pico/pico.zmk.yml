@@ -1,0 +1,8 @@
+file_format: "1"
+id: pico
+name: Pico
+type: shield
+url: 
+requires: [pro_micro]
+features:
+  - keys
